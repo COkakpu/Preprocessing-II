@@ -1,1 +1,27 @@
 // Navigation Styles here
+.display-flex(@direction, @justify){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+}
+nav{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    .display-flex(row, space-between,);
+    border-bottom: 1px dotted black;
+    li{
+        display: inline-block;
+        box-sizing: border-box;
+        padding:10px;
+        font-size: 15px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+}
+.btn{
+    .myBtn();
+}
